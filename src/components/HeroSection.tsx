@@ -1,11 +1,10 @@
 import { Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-kitchen.jpg";
 
 const HeroSection = () => (
   <section className="relative min-h-[90vh] flex items-center pt-16">
     <div className="absolute inset-0">
-      <img src={heroImage} alt="Custom kitchen cabinetry by James Lannon" className="w-full h-full object-cover" width={1920} height={1080} />
+      <img src="/hero-kitchen.jpg" alt="Custom kitchen cabinetry by James Lannon" className="w-full h-full object-cover" width={1920} height={1080} />
       <div className="absolute inset-0 bg-gradient-to-r from-charcoal/85 via-charcoal/60 to-charcoal/30" />
     </div>
 
