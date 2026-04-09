@@ -17,7 +17,8 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-card/95 backdrop-blur-sm border-b">
       <div className="container mx-auto px-4 flex items-center justify-between h-16">
-        <a href="#" className="font-serif text-lg font-bold text-foreground">
+        <a href="#" className="flex items-center gap-2 font-serif text-lg font-bold text-foreground">
+          <img src={logo} alt="James Lannon logo" width={28} height={28} className="h-7 w-7" />
           James Lannon
         </a>
 
